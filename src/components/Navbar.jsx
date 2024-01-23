@@ -8,11 +8,11 @@ const Navbar = () => {
     
     </>
     return (
-        <div className="bg-lime-600">
+        <div className="bg-emerald-800">
              <div className="navbar shadow-lg">
             <div className="navbar-start">
                 <div className="dropdown lg:hidden">
-                <label tabIndex={0} className="btn btn-ghost btn-circle">
+                <label tabIndex={0} className="btn btn-ghost btn-circle text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                 </label>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-600 rounded-box w-52">
@@ -22,7 +22,7 @@ const Navbar = () => {
                 </ul>
                 </div>
                   <div className="flex ml-2 font-serif">
-                       <span className="lg:text-2xl font-bold mr-1 lg:mr-2"><img className="w-8" src="https://i.ibb.co/xXK8JbY/46cd20a33efe24abce136ee09cea122a-removebg-preview.png" alt="logo" />  </span> <span className="text-white mt-1.5 lg:mt-0 font-bold lg:text-2xl">SCC Tech</span>
+                       <span className="lg:text-2xl font-bold mr-1 lg:mr-2"><img className="w-8" src="https://i.ibb.co/Xx3482M/home-buy-sell-or-rent-logo-clean-and-simple-logo-template-suitable-for-a-real-estate-house-rent-mort.png" alt="logo" />  </span> <span className="text-white  font-bold lg:text-2xl">RENT<span className="text-orange-500">FOLIO</span></span>
                     </div>
             </div>
             <div className="navbar-end hidden lg:flex">
