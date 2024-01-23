@@ -8,6 +8,7 @@ import Login from "../Pages/signIn/Login";
 import Dashboard from "../Pages/Dashboard";
 import Addhouse from "../components/Addhouse";
 import Allhouses from "../components/Allhouses";
+import Update from "../components/Update";
 
 
 
@@ -42,6 +43,11 @@ const myRouter = createBrowserRouter([
      {
         path: 'allhouses',
         element: <Allhouses></Allhouses>
+     },
+     {
+        path: 'allhouses/update/:id',
+        element: <Update></Update>,
+        loader: ({ params }) => fetch(`http://localhost:5002/userrents/${params.id}`),
      }
     ]
 }
