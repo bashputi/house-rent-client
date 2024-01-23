@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-gray-300 text-content">
         <aside>
         <div className="flex ml-2 font-serif">
-                       <span className="lg:text-2xl font-bold mr-1 lg:mr-2"><img className="w-8" src="https://i.ibb.co/Xx3482M/home-buy-sell-or-rent-logo-clean-and-simple-logo-template-suitable-for-a-real-estate-house-rent-mort.png" alt="logo" />  </span> <span className="text-white  font-bold lg:text-2xl">RENT<span className="text-orange-500">FOLIO</span></span>
+                       <span className="lg:text-2xl font-bold mr-1 lg:mr-2"><img className="w-8" src="https://i.ibb.co/Xx3482M/home-buy-sell-or-rent-logo-clean-and-simple-logo-template-suitable-for-a-real-estate-house-rent-mort.png" alt="logo" />  </span> <span className="text-white  font-bold lg:text-2xl">HOUSE<span className="text-orange-500">HUNTER</span></span>
                     </div>
           <p className="text-emerald-700 ">ACME Industries Ltd.<br/>Providing reliable Delivery since 2012</p>
         </aside> 
@@ -36,7 +36,7 @@ const Footer = () => {
        
       </footer>
        <aside className="bg-neutral">
-       <p className="text-white text-center py-3">Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+       <p className="text-white text-center py-3">Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
      </aside>
        </>
     );

@@ -8,7 +8,7 @@ const Navbar = () => {
     
     </>
     return (
-        <div className="bg-emerald-800">
+        <div className="bg-emerald-800 ">
              <div className="navbar shadow-lg">
             <div className="navbar-start">
                 <div className="dropdown lg:hidden">
@@ -22,7 +22,7 @@ const Navbar = () => {
                 </ul>
                 </div>
                   <div className="flex ml-2 font-serif">
-                       <span className="lg:text-2xl font-bold mr-1 lg:mr-2"><img className="w-8" src="https://i.ibb.co/Xx3482M/home-buy-sell-or-rent-logo-clean-and-simple-logo-template-suitable-for-a-real-estate-house-rent-mort.png" alt="logo" />  </span> <span className="text-white  font-bold lg:text-2xl">RENT<span className="text-orange-500">FOLIO</span></span>
+                       <span className="lg:text-2xl font-bold mr-1 lg:mr-2"><img className="w-8" src="https://i.ibb.co/Xx3482M/home-buy-sell-or-rent-logo-clean-and-simple-logo-template-suitable-for-a-real-estate-house-rent-mort.png" alt="logo" />  </span> <span className="text-white  font-bold lg:text-2xl">HOUSE <span className="text-orange-500">HUNTER</span></span>
                     </div>
             </div>
             <div className="navbar-end hidden lg:flex">
