@@ -6,6 +6,8 @@ import Register from "../Pages/signIn/Register";
 import Login from "../Pages/signIn/Login";
 // import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Pages/Dashboard";
+import Addhouse from "../components/Addhouse";
+import Allhouses from "../components/Allhouses";
 
 
 
@@ -33,7 +35,14 @@ const myRouter = createBrowserRouter([
     path: "/dashboard",
     element: <Dashboard></Dashboard>,
     children: [
-
+     {
+        path: 'addhouse',
+        element: <Addhouse></Addhouse>
+     },
+     {
+        path: 'allhouses',
+        element: <Allhouses></Allhouses>
+     }
     ]
 }
 ])
