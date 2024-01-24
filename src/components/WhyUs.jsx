@@ -27,7 +27,7 @@ const WhyUs = () => {
     };
 
     return (
-        <div className="pb-16">
+        <div id="why" className="pb-16">
            <h1 className="text-center font-bold text-xl lg:text-5xl my-12">LET US KNOW YOUR COMMENT</h1>
            <div id='contact' className='shadow-2xl p-10 border-2 rounded-2xl border-[#E21B70] relative py-12 mx-auto container'>
                 <div className='grid md:grid-cols-12 justify-center items-center '>

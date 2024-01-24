@@ -20,8 +20,9 @@ const Addhouse = () => {
            date: data.date,
            notes: data.notes,
            image: data.image,
+    
             time: new Date(),
-            email: data.email
+            email: 'data.email'
           }
           fetch('http://localhost:5002/rents', {
             method: 'POST',

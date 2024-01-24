@@ -44,6 +44,7 @@ const Dashboard = () => {
 
                      <li> <Link to="/dashboard/addhouse"><FaBook></FaBook>ADD NEW HOUSE</Link> </li>
                          <li className="my-2"> <Link to="/dashboard/allhouses"><FaProductHunt></FaProductHunt>ALL OWENED HOUSES</Link> </li>
+                         <li className="my-2"> <Link to="/dashboard/allbooks"><FaBook></FaBook> ALL BOOKED HOUSES</Link> </li>
                         
                  </ul>
 

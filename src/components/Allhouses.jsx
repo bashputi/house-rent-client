@@ -10,7 +10,8 @@ const Allhouses = () => {
     const [allRent, setAllRent] = useState([])
         
 useEffect(() => {
-    const url = `http://localhost:5002/userrents?email=${user?.email}` ;
+    const url = `http://localhost:5002/rents` ;
+    // userrents?email=${user?.email}
 
     fetch(url)
         .then(res => res.json())
@@ -86,7 +87,7 @@ const handleDeleteItem = (id) => {
                  {index + 1}
                 </th>
                 <td>
-                  <img className="w-12 rounded-full" src={user.image} alt="" />
+                  <img className="w-16 h-12 rounded-full" src={user.image} alt="" />
                 </td>
                 <td>
                   {user.name}
